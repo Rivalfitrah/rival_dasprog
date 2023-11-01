@@ -1,4 +1,7 @@
+import streamlit as st
+
 import calculator1 as dick
+
 
 st.title("Simple Calculator")
 
