@@ -1,4 +1,4 @@
-import calculator1.py as dick
+import calculator1 as dick
 
 st.title("Simple Calculator")
 
