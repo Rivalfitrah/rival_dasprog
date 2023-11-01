@@ -1,4 +1,4 @@
-import streamlit as st
+import calculator1.py as dick
 
 st.title("Simple Calculator")
 
@@ -12,14 +12,14 @@ result = None
 
 if st.button("Calculate"):
     if operation == "Add":
-        result = add(x, y)
+        result = dick.add(x, y)
     elif operation == "Subtract":
-        result = subtract(x, y)
+        result = dick.subtract(x, y)
     elif operation == "Multiply":
-        result = multiply(x, y)
+        result = dick.multiply(x, y)
     elif operation == "Divide":
         try:
-            result = divide(x, y)
+            result = dick.divide(x, y)
         except ZeroDivisionError:
             st.error("Division by zero is not allowed.")
 
