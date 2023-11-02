@@ -1,3 +1,3 @@
 # Dasprog Rival
-Fungtion
+## Fungtion
   https://github.com/Rivalfitrah/rival_dasprog/blob/main/function.ipynb
